@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://personaje/persoanje.tscn" type="PackedScene" id=1]
+
+[node name="mundo1" type="Node2D"]
+
+[node name="persoanje" parent="." instance=ExtResource( 1 )]
+modulate = Color( 0.219608, 0.717647, 0.0352941, 1 )
+position = Vector2( 152, 213 )
